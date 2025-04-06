@@ -9,7 +9,7 @@ from selenium.webdriver.firefox.options import Options#type: ignore
 
 emails = ['vitornc31@gmail.com', 'pessoa3@gmail.com', 'pessoa4@gmail.com', 'pessoa5@gmail.com']
 
-caminhoPerfil = r"C:\Users\Gilberto\AppData\Roaming\Mozilla\Firefox\Profiles\wbsbgekg.default-release-1612880842279"
+caminhoPerfil = "C:\Users\Gilberto\AppData\Roaming\Mozilla\Firefox\Profiles\wbsbgekg.default-release-1612880842279"
 #caminho do seu navegador
 
 options = Options()
