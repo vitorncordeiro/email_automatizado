@@ -22,7 +22,7 @@ nav.get('https://mail.google.com')
 time.sleep(5)
 botaoEnviar = nav.find_element(By.XPATH, '/html/body/div[6]/div[3]/div/div[2]/div[1]/div[1]/div/div')
 botaoEnviar.click()
-time.sleep(2)
+time.sleep(3)
 for email in emails:
     ActionChains(nav)\
         .send_keys(email)\
