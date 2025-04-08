@@ -26,7 +26,7 @@ time.sleep(3)
 for email in emails:
     ActionChains(nav)\
         .send_keys(email)\
-        .pause(1)\
+        .pause(0.5)\
         .send_keys(Keys.TAB)\
         .pause(1)\
         .perform()
